@@ -1,0 +1,150 @@
+/*Bootcamp Layout*/
+
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+    color: #18373a;
+    font-family: "roboto slab";
+    font-size: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Roboto+Slab&display=swap');
+
+/*colors: Primary: #cc752e, Secondary: #f0d8c5, Background: #f0e8e2, Text: #18373a, Accent: #81bff0*/
+
+/*Fonts*/
+h1 {
+    font-family: "roboto serif";
+    font-style: bold;
+    font-size: 50pt;
+}
+h2 {
+    font-family: "roboto serif";
+    font-style: bold;
+    font-size: 40pt;
+}
+h3 {
+    font-family: "roboto serif";
+    font-style: bold;
+    font-size: 32pt;
+}
+h4 {
+    font-family: "roboto serif";
+    font-style: bold;
+    font-size: 20pt;
+}
+p {
+    font-family: "roboto slab";
+    font-style: bold;
+    font-size: 18pt;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    height: auto;
+}
+
+/*Header and navigation*/
+.header {
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    background-color: #f0d8c5;
+}
+.navbar-brand {
+    font-size: 50px;
+    background-color: #cc752e;
+    padding: 10px;
+    border: solid #18373a;
+    border-radius: 10em;
+}
+.nav-item {
+    display: flex;
+    justify-content: center;
+}
+.nav-link {
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover,
+.nav-link:focus {
+    background-color: #81bff0;
+}
+
+/*Main content areas*/
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#f0e8e2;
+    justify-content: center;
+    height: auto;
+}
+
+/*Home page*/
+.background {
+    height: auto;
+}
+
+/*Products page*/
+.card {
+    height: auto;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0d8c5;
+}
+@media screen and (min-width: 720px) {
+    .card {
+        max-width: 40vw;
+    }
+    
+}
+.card1 {
+    height: auto;
+}
+
+/*Contact page*/
+form {
+    margin: 2rem;
+    padding: 2rem;
+    border: solid #18373a;
+    background-color: #f0d8c5;
+    border-radius: 5px;
+}
+label {
+    margin: 1px;
+}
+.textbox {
+    text-align: start;
+    padding: 5rem 0;
+}
+.btn-primary {
+    background-color: #81bff0;
+    border: 0;
+    transition: .4s;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #cc752e;
+    color:#18373a;
+}
+input:hover,
+input:focus {
+    border-color: #81bff0;
+}
+
+/*Footer*/
+.footer {
+    height: auto;
+    padding:1rem;
+    background-color: #f0d8c5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
