@@ -86,7 +86,7 @@ a {
 /*Home page*/
 .background {
     height: auto;
-    max-width: 100vw;
+    max-width: 90vw;
 }
 @media screen and (min-width: 600px) {
     .background {
