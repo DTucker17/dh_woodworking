@@ -8,34 +8,33 @@
     font-family: "roboto slab";
     font-size: 20px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Roboto+Slab&display=swap');
 
 /*colors: Primary: #cc752e, Secondary: #f0d8c5, Background: #f0e8e2, Text: #18373a, Accent: #81bff0*/
 
 /*Fonts*/
 h1 {
     font-family: "roboto serif";
-    font-style: bold;
+    font-weight: bold;
     font-size: 50pt;
 }
 h2 {
     font-family: "roboto serif";
-    font-style: bold;
+    font-weight: bold;
     font-size: 40pt;
 }
 h3 {
     font-family: "roboto serif";
-    font-style: bold;
+    font-weight: bold;
     font-size: 28pt;
 }
 h4 {
     font-family: "roboto serif";
-    font-style: bold;
+    font-weight: bold;
     font-size: 20pt;
 }
 p {
     font-family: "roboto slab";
-    font-style: bold;
+    font-weight: bold;
     font-size: 18pt;
     margin: 0;
 }
