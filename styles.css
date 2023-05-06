@@ -85,10 +85,14 @@ a {
 
 /*Home page*/
 .background {
-    height: auto;
     max-width: 390px;
 }
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 391px) {
+    .background {
+        max-width: 450px;
+    }
+}
+@media screen and (min-width: 580px) {
     .background {
         max-width: none;
     }
