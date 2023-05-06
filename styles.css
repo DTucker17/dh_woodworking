@@ -86,9 +86,7 @@ a {
 /*Home page*/
 .background {
     height: auto;
-    width: auto;
 }
-
 
 /*Products page*/
 .card {
@@ -103,7 +101,6 @@ a {
     .card {
         max-width: 40vw;
     }
-    
 }
 .card1 {
     height: auto;
