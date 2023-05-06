@@ -26,7 +26,7 @@ h2 {
 h3 {
     font-family: "roboto serif";
     font-style: bold;
-    font-size: 32pt;
+    font-size: 28pt;
 }
 h4 {
     font-family: "roboto serif";
@@ -136,6 +136,54 @@ label {
 input:hover,
 input:focus {
     border-color: #81bff0;
+}
+
+/*About page*/
+.main-about {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+.hanson-xander {
+    height: auto;
+    border-radius: 1rem;
+    max-width: 30vw;
+    min-width: 160px;
+}
+.heading {
+    padding: 1rem;
+}
+.about-picture {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.about-text {
+    display: flex;
+    justify-content: center;
+}
+.about {
+    background-color: #f0d8c5;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid #18373a;
+    padding: 1rem;
+}
+@media screen and (min-width: 720px) {
+    .about {
+        max-width: 60vw;
+    }   
+}
+.link {
+    color: #cc752e;
+    font-family: "roboto slab";
+    font-size: 18pt;
+    border-radius: 5px;
+}
+.link:hover,
+.link:focus {
+    background-color: #81bff0;
 }
 
 /*Footer*/
